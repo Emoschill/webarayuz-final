@@ -1,0 +1,280 @@
+/*default changes */
+.limit_page {
+    max-width: 1300px;
+}
+
+.m_o {
+    margin: auto;
+}
+
+
+body {
+    margin: 0 0;
+    padding: 0;
+    background-color: rgb(254, 254, 254);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*header */
+
+
+header > div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    max-width: var(--max-width-value);
+}
+
+
+/*Nav*/
+nav {
+    padding: 10px;
+    background-color: rgba(3,64,153,255);
+}
+nav > :first-child {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+nav h1 {
+    vertical-align: center;
+    margin-left: 10px;
+    color:white;
+    font-style:italic /*google font ekle*/
+}
+nav ul {
+    list-style-type: none;
+    float:right;
+    display: flex;
+}
+nav > :first-child {
+    flex-grow: 1;
+}
+nav li {
+    padding: 10px;
+    margin: 10px;
+}
+nav a {
+    color:white;
+}
+
+.icon_n_text {
+    padding: 0 15px 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.icon_n_text img {
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon_n_text p {
+    align-items: center;
+}
+
+main {
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_1 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_1 > div {
+    padding: 20px;
+    margin-right: 130px;
+}
+.div_1 div h2 {
+    padding: 10px;
+    margin: 0;
+    font-size: 50px;
+}
+.div_1  main div > :nth-child(2) {
+    font-size: 60px;
+    color: blue;
+}
+.div_1 img {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+  
+}
+
+
+.div_2 {
+    margin-top: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_2 div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-right: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.div_2 div:last-child {
+    margin-right: 0;
+}
+
+.div_2 img {
+    width: 50px;
+    height: 50px;
+}
+
+.div_3 {
+    margin-top: 30px;
+}
+.div_3 > div h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.div_3 > div p {
+    text-align: center;
+}
+
+.div_3 > div > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div_3 > div > div div {
+    padding: 30px;
+}
+
+.div_4 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_4 > div > div {
+    margin: 10px;
+    text-align: center;
+}
+.div_4 > div > div > :first-child {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.div_4 h2, .div_4 p {
+    text-align: center;
+}
+.div_4 >div > div > img {
+    width: 40px;
+    height: 40px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 30px;
+    color: black;
+}
+
+footer > div {
+    display: flex;
+    justify-content: center;
+}
+
+footer > div > div {
+    margin: 20px;
+}
+
+footer ul {
+    flex-basis: 1;
+    justify-content: center;
+}
+.foto{
+   width: 100%;
+   border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.card {
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  } 
+  .container {
+    padding: 2px 16px;
+    text-align: center;
+    
+  }
+  .prf{
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+  .box{
+    width: 16%;
+    height: auto;
+    margin-right: 4%;
+    border-radius: 10px;
+    transition: 0.9;
+    margin-bottom: 2%;
+}
+.box:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cl1{
+    background-color: grey;
+}
+footer :first-child > div {
+    width: 400px;
+}
+
+footer h4 {
+    margin-right: 200px;
+    font-size: 40px;
+}
+
+footer ul {
+    flex-basis: 49%;
+    list-style-type: none;
+}
+
+footer li a {
+    margin:10px;
+    color:black;
+    text-decoration: none;
+}
+
+footer hr {
+    background-color: blue;
+    border: 3px solid blue;
+    color: blue;
+    border-radius: 20px;
+}
+
+footer input {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0, 0.1);
+    border: none;
+}
